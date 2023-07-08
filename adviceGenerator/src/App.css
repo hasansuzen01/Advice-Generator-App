@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:ital,wght@1,600&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: #202632;
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+.bgDiv{
+    background-color: #313a49;
+    width: 52%;
+    height: 52%;
+    border-radius: 10px;
+}
+.textİd{
+    color: #51fead;
+}
+.btnRefresh{
+    background-color:#51fead ;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.logo{
+    margin-left: 12.9px;
+}
+/*loading */
+.loadingDiv{
+    background-color:#202632 ;
+    height: 100vh;
+    color: white;
+}
+/*responsive */
+@media (min-width: 1270px) {
+    .itemsDiv {
+      width: 25%;
+    }
+  }
+  @media (min-width: 910px) {
+    .bgDiv {
+      
+      left: 0px;
+    }
+  }
